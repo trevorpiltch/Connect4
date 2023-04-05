@@ -7,22 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0825E4B529DCF08800425B2E /* Confetti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0825E4B429DCF08800425B2E /* Confetti.swift */; };
+		0825E4BF29DCFAF300425B2E /* ConnectFourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0825E4BE29DCFAF300425B2E /* ConnectFourTests.swift */; };
+		0825E4C529DCFAF800425B2E /* BoardTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0825E4B629DCF9C700425B2E /* BoardTest.swift */; };
+		0825E4C629DCFB1400425B2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D643A029D20D6D00D1EC80 /* ContentView.swift */; };
+		0825E4C729DCFB4000425B2E /* ViewMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0831E5A829DC6B0200634741 /* ViewMethods.swift */; };
+		0825E4C829DCFB6A00425B2E /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08417BB129D3563A0027A892 /* Board.swift */; };
+		0825E4C929DCFB6D00425B2E /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08417BB329D358440027A892 /* Player.swift */; };
+		0825E4CA29DCFC3500425B2E /* BoardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08417BAF29D355F50027A892 /* BoardItem.swift */; };
+		0825E4CB29DCFC3900425B2E /* Confetti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0825E4B429DCF08800425B2E /* Confetti.swift */; };
+		0831E5A929DC6B0200634741 /* ViewMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0831E5A829DC6B0200634741 /* ViewMethods.swift */; };
+		08417BB029D355F50027A892 /* BoardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08417BAF29D355F50027A892 /* BoardItem.swift */; };
+		08417BB229D3563A0027A892 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08417BB129D3563A0027A892 /* Board.swift */; };
+		08417BB429D358440027A892 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08417BB329D358440027A892 /* Player.swift */; };
 		08D6439F29D20D6D00D1EC80 /* ConnectFourApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D6439E29D20D6D00D1EC80 /* ConnectFourApp.swift */; };
 		08D643A129D20D6D00D1EC80 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D643A029D20D6D00D1EC80 /* ContentView.swift */; };
 		08D643A329D20D6E00D1EC80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08D643A229D20D6E00D1EC80 /* Assets.xcassets */; };
 		08D643A629D20D6E00D1EC80 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08D643A529D20D6E00D1EC80 /* Preview Assets.xcassets */; };
+		08DE2EDA29DC9C47002CADDB /* GameSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DE2ED929DC9C47002CADDB /* GameSetupView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		0825E4C029DCFAF300425B2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08D6439329D20D6D00D1EC80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08D6439A29D20D6D00D1EC80;
+			remoteInfo = ConnectFour;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0825E4B429DCF08800425B2E /* Confetti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Confetti.swift; sourceTree = "<group>"; };
+		0825E4B629DCF9C700425B2E /* BoardTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardTest.swift; sourceTree = "<group>"; };
+		0825E4BC29DCFAF300425B2E /* ConnectFourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectFourTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0825E4BE29DCFAF300425B2E /* ConnectFourTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectFourTests.swift; sourceTree = "<group>"; };
+		0831E5A829DC6B0200634741 /* ViewMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMethods.swift; sourceTree = "<group>"; };
+		08417BAF29D355F50027A892 /* BoardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardItem.swift; sourceTree = "<group>"; };
+		08417BB129D3563A0027A892 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		08417BB329D358440027A892 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		08D6439B29D20D6D00D1EC80 /* ConnectFour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConnectFour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08D6439E29D20D6D00D1EC80 /* ConnectFourApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectFourApp.swift; sourceTree = "<group>"; };
 		08D643A029D20D6D00D1EC80 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		08D643A229D20D6E00D1EC80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08D643A529D20D6E00D1EC80 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		08D643A729D20D6E00D1EC80 /* ConnectFour.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ConnectFour.entitlements; sourceTree = "<group>"; };
+		08DE2ED929DC9C47002CADDB /* GameSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSetupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0825E4B929DCFAF300425B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		08D6439829D20D6D00D1EC80 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,10 +73,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0825E4BD29DCFAF300425B2E /* ConnectFourTests */ = {
+			isa = PBXGroup;
+			children = (
+				0825E4BE29DCFAF300425B2E /* ConnectFourTests.swift */,
+				0825E4B629DCF9C700425B2E /* BoardTest.swift */,
+			);
+			path = ConnectFourTests;
+			sourceTree = "<group>";
+		};
+		08417BB529D3679B0027A892 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				08417BB329D358440027A892 /* Player.swift */,
+				08417BB129D3563A0027A892 /* Board.swift */,
+				0831E5A829DC6B0200634741 /* ViewMethods.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		08417BB629D367A00027A892 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				08DE2ED929DC9C47002CADDB /* GameSetupView.swift */,
+				08D643A029D20D6D00D1EC80 /* ContentView.swift */,
+				08417BAF29D355F50027A892 /* BoardItem.swift */,
+				0825E4B429DCF08800425B2E /* Confetti.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		08D6439229D20D6D00D1EC80 = {
 			isa = PBXGroup;
 			children = (
 				08D6439D29D20D6D00D1EC80 /* ConnectFour */,
+				0825E4BD29DCFAF300425B2E /* ConnectFourTests */,
 				08D6439C29D20D6D00D1EC80 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				08D6439B29D20D6D00D1EC80 /* ConnectFour.app */,
+				0825E4BC29DCFAF300425B2E /* ConnectFourTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,7 +125,8 @@
 			isa = PBXGroup;
 			children = (
 				08D6439E29D20D6D00D1EC80 /* ConnectFourApp.swift */,
-				08D643A029D20D6D00D1EC80 /* ContentView.swift */,
+				08417BB629D367A00027A892 /* Views */,
+				08417BB529D3679B0027A892 /* Model */,
 				08D643A229D20D6E00D1EC80 /* Assets.xcassets */,
 				08D643A729D20D6E00D1EC80 /* ConnectFour.entitlements */,
 				08D643A429D20D6E00D1EC80 /* Preview Content */,
@@ -72,6 +145,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0825E4BB29DCFAF300425B2E /* ConnectFourTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0825E4C229DCFAF300425B2E /* Build configuration list for PBXNativeTarget "ConnectFourTests" */;
+			buildPhases = (
+				0825E4B829DCFAF300425B2E /* Sources */,
+				0825E4B929DCFAF300425B2E /* Frameworks */,
+				0825E4BA29DCFAF300425B2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0825E4C129DCFAF300425B2E /* PBXTargetDependency */,
+			);
+			name = ConnectFourTests;
+			productName = ConnectFourTests;
+			productReference = 0825E4BC29DCFAF300425B2E /* ConnectFourTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		08D6439A29D20D6D00D1EC80 /* ConnectFour */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08D643AA29D20D6E00D1EC80 /* Build configuration list for PBXNativeTarget "ConnectFour" */;
@@ -96,9 +187,13 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					0825E4BB29DCFAF300425B2E = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 08D6439A29D20D6D00D1EC80;
+					};
 					08D6439A29D20D6D00D1EC80 = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -118,11 +213,19 @@
 			projectRoot = "";
 			targets = (
 				08D6439A29D20D6D00D1EC80 /* ConnectFour */,
+				0825E4BB29DCFAF300425B2E /* ConnectFourTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0825E4BA29DCFAF300425B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		08D6439929D20D6D00D1EC80 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -135,18 +238,83 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0825E4B829DCFAF300425B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0825E4C529DCFAF800425B2E /* BoardTest.swift in Sources */,
+				0825E4BF29DCFAF300425B2E /* ConnectFourTests.swift in Sources */,
+				0825E4C829DCFB6A00425B2E /* Board.swift in Sources */,
+				0825E4C629DCFB1400425B2E /* ContentView.swift in Sources */,
+				0825E4C929DCFB6D00425B2E /* Player.swift in Sources */,
+				0825E4CB29DCFC3900425B2E /* Confetti.swift in Sources */,
+				0825E4CA29DCFC3500425B2E /* BoardItem.swift in Sources */,
+				0825E4C729DCFB4000425B2E /* ViewMethods.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		08D6439729D20D6D00D1EC80 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				08D643A129D20D6D00D1EC80 /* ContentView.swift in Sources */,
 				08D6439F29D20D6D00D1EC80 /* ConnectFourApp.swift in Sources */,
+				08417BB229D3563A0027A892 /* Board.swift in Sources */,
+				08417BB429D358440027A892 /* Player.swift in Sources */,
+				08DE2EDA29DC9C47002CADDB /* GameSetupView.swift in Sources */,
+				0825E4B529DCF08800425B2E /* Confetti.swift in Sources */,
+				08417BB029D355F50027A892 /* BoardItem.swift in Sources */,
+				0831E5A929DC6B0200634741 /* ViewMethods.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		0825E4C129DCFAF300425B2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08D6439A29D20D6D00D1EC80 /* ConnectFour */;
+			targetProxy = 0825E4C029DCFAF300425B2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		0825E4C329DCFAF300425B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73NB3M72YG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = piltch.trevor.ConnectFourTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConnectFour.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ConnectFour";
+			};
+			name = Debug;
+		};
+		0825E4C429DCFAF300425B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73NB3M72YG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = piltch.trevor.ConnectFourTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConnectFour.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ConnectFour";
+			};
+			name = Release;
+		};
 		08D643A829D20D6E00D1EC80 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -180,6 +348,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -240,6 +409,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -269,6 +439,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"ConnectFour/Preview Content\"";
 				DEVELOPMENT_TEAM = 73NB3M72YG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -296,6 +467,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"ConnectFour/Preview Content\"";
 				DEVELOPMENT_TEAM = 73NB3M72YG;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -317,6 +489,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0825E4C229DCFAF300425B2E /* Build configuration list for PBXNativeTarget "ConnectFourTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0825E4C329DCFAF300425B2E /* Debug */,
+				0825E4C429DCFAF300425B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		08D6439629D20D6D00D1EC80 /* Build configuration list for PBXProject "ConnectFour" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
