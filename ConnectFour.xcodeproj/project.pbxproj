@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0825E4B529DCF08800425B2E /* Confetti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0825E4B429DCF08800425B2E /* Confetti.swift */; };
-		0825E4BF29DCFAF300425B2E /* ConnectFourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0825E4BE29DCFAF300425B2E /* ConnectFourTests.swift */; };
-		0825E4C529DCFAF800425B2E /* BoardTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0825E4B629DCF9C700425B2E /* BoardTest.swift */; };
 		0825E4C629DCFB1400425B2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D643A029D20D6D00D1EC80 /* ContentView.swift */; };
 		0825E4C729DCFB4000425B2E /* ViewMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0831E5A829DC6B0200634741 /* ViewMethods.swift */; };
 		0825E4C829DCFB6A00425B2E /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08417BB129D3563A0027A892 /* Board.swift */; };
@@ -39,9 +37,7 @@
 
 /* Begin PBXFileReference section */
 		0825E4B429DCF08800425B2E /* Confetti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Confetti.swift; sourceTree = "<group>"; };
-		0825E4B629DCF9C700425B2E /* BoardTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardTest.swift; sourceTree = "<group>"; };
 		0825E4BC29DCFAF300425B2E /* ConnectFourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectFourTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0825E4BE29DCFAF300425B2E /* ConnectFourTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectFourTests.swift; sourceTree = "<group>"; };
 		0831E5A829DC6B0200634741 /* ViewMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMethods.swift; sourceTree = "<group>"; };
 		08417BAF29D355F50027A892 /* BoardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardItem.swift; sourceTree = "<group>"; };
 		08417BB129D3563A0027A892 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
@@ -73,15 +69,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0825E4BD29DCFAF300425B2E /* ConnectFourTests */ = {
-			isa = PBXGroup;
-			children = (
-				0825E4BE29DCFAF300425B2E /* ConnectFourTests.swift */,
-				0825E4B629DCF9C700425B2E /* BoardTest.swift */,
-			);
-			path = ConnectFourTests;
-			sourceTree = "<group>";
-		};
 		08417BB529D3679B0027A892 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -107,7 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				08D6439D29D20D6D00D1EC80 /* ConnectFour */,
-				0825E4BD29DCFAF300425B2E /* ConnectFourTests */,
 				08D6439C29D20D6D00D1EC80 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -242,8 +228,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0825E4C529DCFAF800425B2E /* BoardTest.swift in Sources */,
-				0825E4BF29DCFAF300425B2E /* ConnectFourTests.swift in Sources */,
 				0825E4C829DCFB6A00425B2E /* Board.swift in Sources */,
 				0825E4C629DCFB1400425B2E /* ContentView.swift in Sources */,
 				0825E4C929DCFB6D00425B2E /* Player.swift in Sources */,
